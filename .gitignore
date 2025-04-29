@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+
+# Byte-compiled / optimized / DLL files1
+*.pyc
+__pycache__/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# IDEs/editors
+.idea/
