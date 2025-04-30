@@ -37,7 +37,7 @@ def start_server(pkk: str) -> None:
     :param pkk: Tidio Public Key
     :return: None
     """
-    print(f"Starting HTTP server at http://localhost:{PORT}")
+    print(f"Starting HTTP server at http://localhost:{PORT}\n")
     try:
         handler = create_handler(pkk)
         with http.server.HTTPServer(("", PORT), handler) as http_server:
