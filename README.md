@@ -28,7 +28,7 @@ The core functionality of your program should include:
 * PyCharm 2025.1
 
 ## Assumptions
-* User should want 1 second before typing new message
+* User should wait 1 second before typing new message
 * Received messages polling interval is 1 second
 
 ### Setup environment
